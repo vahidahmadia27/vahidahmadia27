@@ -1,0 +1,993 @@
+//
+// let ghad = 165 ;
+// let vazn = 60 ;
+//
+//
+//
+//
+// let points = (vazn) / (ghad * ghad) ;
+// if (points >= 0.0018 && points <= 0.0025){
+//   points = 'normal'
+// }
+// else if (points>= 0.0026 && points <= 0.0030) {
+// points = 'khatari'
+// }else {
+// points = 'chagh'
+// }
+// console.log(points);
+
+//
+// let ghad = 190;
+// let vazn = 65 ;
+//
+//  let points = 0.0029;
+//
+//
+//
+// switch (points) {
+// case 0.0018 > 0.0025 :
+// console.log('normal');
+// break ;
+//
+// case 0.0026 > 0.0030 :
+//  console.log('kam kam fat ');
+// break ;
+//
+// default :
+// console.log('it is chagh');
+// }
+
+// let i = 0 ;
+//
+// while (i < 5 ) {
+//   console.log(i);
+// i++;
+// }
+//
+// let person = {
+//   name : 'vahid',
+//   family : 'ahmadi',
+//   age : 27
+// }
+//
+// for (let ajab in person){
+//   console.log(ajab, person[ajab]);
+// }
+//
+//
+// let colors = ['red' , 'blue' , 'sorati']
+//
+// for (let index in colors){
+//   console.log(index , colors[index]);
+// }
+//
+//
+//
+//
+// let nameOfpelayer = ['moshteba' , 'vahid' , 'ajab' , 'alireza' , 'hamid']
+//
+// for (let index in nameOfpelayer){
+//   console.log(index , nameOfpelayer[index]);
+// }
+
+//
+// let i = 0 ;
+// while ( i < 10 )
+// {
+//   if (i == 5 ) {
+//     console.log('resid 5' );
+//     if (i==5 ) {
+//       console.log('bazam reseid 5');
+//       break;
+//     }
+//     i++
+//     break;
+//   }
+//   console.log(i);
+//   i++
+// }
+
+// let number = max(6,4);
+//
+// console.log(number);
+//
+// function max(a,b){
+//   return (a>b) ? a : b
+// }
+
+// let points= Bmi(60 , 160);
+//
+// if (points){
+//   0.0018 > 0.0025 ;
+//   console.log('normal');
+// }else if{
+//   0.0026 > 0.0035 ;
+//   console.log('chagh');
+// }
+// }else
+//   console.log('death is cooming');
+//
+//
+//
+//
+// function Bmi (a , b){
+//   return  (a) / (b * b)
+// }
+
+// //
+// //
+// //
+// // let outpot = fizzbuzz (35);
+// // console.log(outpot);
+// //
+// //
+// //
+// //
+// //
+// // function fizzbuzz (input){
+// //
+// // if ( typeof input !== 'number'){
+// //   return 'not number';
+// // } if (input % 3 === 0 ) {
+// //   return 'buzz';
+// // }if (input % 5 === 0) {
+// //   return ' fizz';
+// //
+// // }if ((input % 3 === 0 ) && (input % 5 === 0 )){
+// //   return  'fizzbuzz';
+// //
+// // }
+// }
+
+//
+// let number = max (20 , 30 ) ;
+// console.log(number);
+//
+//
+//
+//
+// function max (numberone , numbertwo){
+//   return (numberone > numbertwo);
+// }
+
+//   let vahid = showme(27)
+//
+// function showme(limitls){
+// for (let i = 0; i <= limitls; i++) {
+//   const message = (i % 2 === 0 ) ? 'zoje' : 'fard';
+//   console.log(i , 'عدد '+ message );
+//
+// }
+//
+//
+// }
+
+//
+// let vahid = adad(8)
+// function adad (yeadadi){
+//   for (let i = 0 ; i <= yeadadi ; i++){
+//     const meghdar = (i % 2 === 0 ) ? 'zoje' : 'fard' ;
+//     console.log( i, meghdar);
+//   }
+// }
+
+// vahid ('vahid');
+//
+//
+// function vahid (adad) {
+// for (let i = 0 ; i <= adad ; i ++ ){
+//   const meghdar = (i % 2 === 0 ) ? 'zoje' : 'fard' ;
+//   console.log(i , meghdar);
+// }
+//
+// }
+
+// let moive = {
+//   name : 'gameOfThrone' ,
+//   year : 2015 ,
+//   kargardan : 'vahid',
+//   rating : 5
+// }
+//
+// showrating(moive);
+//
+// function showrating(obj){
+//   for (let key in  obj)
+// if  (typeof obj[key] === 'number')
+//   console.log(key , obj[key]);
+//
+// }
+
+//
+// let vahid = {
+//   name : 'vahid' ,
+//   age :27 ,
+//   programing : 'frontend'
+//
+// };
+//
+//
+// let amin = {
+//   name : 'amin' ,
+//   age :24 ,
+//   programing : 'flutter'
+//
+// };
+//
+//
+// let abbas = {
+//   name : 'abbas' ,
+//   age :12 ,
+//   programing : 'null'
+//
+// };
+//
+//
+//
+// let amirehossein = {
+//   name : 'amirehossein' ,
+//   age :18 ,
+//   programing : 'UI'
+// };
+//
+//
+//
+// const listOfCompany=[vahid , amin , abbas , amirehossein];
+//
+// age(listOfCompany);
+//
+//
+//
+// function age(obj){
+//   for (let key in obj)
+//   // if (typeof obj[key]==='string')
+//   console.log(key , obj[key]);
+// }
+
+//
+// function rating (marks) {
+// if  (sun < 60 )  return 'F';
+// if  (sun < 70 )  return 'd';
+// if (sun < 80 )  return 'c';
+// if (sun < 90 )  return 'b';
+// return 'a';
+// }
+
+// const marks = [80 , 20 , 90];
+
+// console.log(hesabemarck(marks));
+
+// function hesabemarck(marks) {
+//   const avareges = shomarsh(marks);
+//   if (avareges < 60) return "F";
+//   if (avareges < 70) return "D";
+//   if (avareges < 80) return "C";
+//   if (avareges < 90) return "B";
+//   return "A";
+// }
+
+// function shomarsh(array) {
+//   let sum = 0;
+//   for (let value of array) sum += value;
+//   return sum / array.length;
+// }
+
+// let emtiaza = [90, 50, 90];
+
+// console.log(rating(emtiaza));
+
+// function rating(emtiaza) {
+//   let change = testtwo(emtiaza);
+//   Math.floor.change;
+//   if (change < 60) return "e";
+//   if (change < 70) return "d";
+//   if (change < 80) return "c";
+//   if (change < 90) return "b";
+//   return "a";
+// }
+
+// function testtwo(harchi) {
+//   let sum = 0;
+//   for (let value of harchi) sum += value;
+//   return sum / harchi.length;
+// }
+
+// let time  = 21 ;
+
+// if (time >=6 && time <12){
+//   console.log('good morning ');
+
+// }
+
+// else if (time >= 12 && time <=18){
+//   console.log('zohre bekhyr');
+// }
+// else{
+//   console.log('sho khosh');
+// }
+
+// let ghad = 180 ;
+// let vazn = 90 ;
+
+// let bmi = Bmi(vazn , ghad)
+
+// function Bmi (a , b) {
+//   let bmi = (a) / (b * b)
+//   if(bmi <0.0018 ) console.log('skinny');
+//   else if (bmi > 0.0018, bmi < 0.0025)
+//     console.log('normal');
+
+//   else if (bmi >= 0.0025 ,bmi <0.0035)
+//     console.log('Danger To Fat');
+
+//   else if (bmi >0.0035) console.log('Obese human');
+
+// }
+// let item = 5;
+
+// for (let i = 0; item >= i ; i++ ){
+// console.log('hi world');
+
+// }
+
+// let ghad = 170 ;
+// let vazn = 58 ;
+
+// let bmi = Bmi(ghad , vazn );
+
+// function Bmi (a , b ){
+//   let bb = (a)/ (b*b);
+//   swtich (bb){
+//   case bb <= 0.0018  :
+//     console.log('skinny');
+//     break;
+// }
+// }
+
+// let Nmae ='moshteba';
+
+// switch (Nmae){
+//   case 'vahid' :
+//   console.log('it is vahid');
+//   break;
+//   case 'moshteba':
+//     console.log('eeee moshteba ');
+//     break;
+//     default :
+//     console.log('no one');
+// }
+
+// فرق بین while
+// با do while
+// while : aval  shart ra chek mikonad
+// do while : aval ye bar ejra mishe bad shart chek mishe
+
+// const colors = ['red' , 'green' , 'sorati']
+
+// for(let index in colors){
+//   console.log(index , colors[index]);
+// }
+
+// const person = {
+//   name : 'vahid',
+//   family : 'ahmadi',
+//   age : 27
+// }
+
+// for (let indd in person){
+//   console.log(indd , person[indd]);
+// }
+
+// let numberOne = 22 ;
+// let numberTwo = 50 ;
+
+// max(numberOne , numberTwo);
+
+// function max (a , b){
+//   if (a>b) console.log(a);
+//   else console.log(b);
+// }
+
+// let number = max(55 , 52)
+
+// console.log(number);
+
+// function max (a , b) {
+//   if (a > b ) return a ;
+//   else return b ;
+// }
+
+// const number = max (-5000000, -50000000) ;
+// console.log(number);
+
+// function max (a ,b){
+//   return (a > b) ? a : b
+// }
+
+// function fiz(number) {
+//   debugger;
+//   switch (number) {
+//     case number < 0:
+//       console.log("nothing");
+//       break;
+//     case number >= 0 && number <= 3:
+//       console.log("fizz");
+//       break;
+//     case number > 4:
+//       console.log("fiizzzzzz");
+//       break;
+//     default:
+//       console.log(number);
+//       break;
+//   }
+// }
+
+
+
+
+
+
+
+// console.log(fizz(4));
+
+
+// function fizz (a) {
+//     switch (a) {
+//         case  a <0 :
+//         console.log('noting');
+//         break;
+//         case  a > 0 && a <= 3 :
+//         console.log('fizzzz');
+//         break;
+//         case  a>= 4 :
+//         console.log('salamdoste man ');
+//         break;
+//     }
+// }
+// checkspeed(120) ;
+
+// function checkspeed(speed) {
+//   let limitspeed = 70 ;
+//   let pointsspeed = 5 ;
+// if (speed < limitspeed + pointsspeed ){
+//   console.log('good');
+//   return ;
+// }
+// const points = Math.floor(speed - limitspeed ) / pointsspeed
+// if(points >= 12 )
+// console.log('very fast ');
+// else
+// console.log(points , 'points');
+// return;
+// }
+
+// limit(50)
+
+// function limit(number){
+// for (let i = 0 ; i <= number ; i++){
+//   const message = (i %2 === 0 ) ? 'even' : 'odd'
+//   console.log(i , message);
+// }
+// }
+
+// const moive = {
+//   name : 'game' ,
+//   year : 2015 ,
+//   mozo : 'takhayoli',
+//   rating : 4.8
+// }
+
+// number(moive)
+
+// function number (moive){
+// for (let key in moive){
+//   if (typeof moive[key] === 'number')
+//   console.log(key ,':', moive[key]);
+// }
+// }
+
+// const rating = [50 , 60 , 90];
+// mohasebe(rating);
+
+// function mohasebe(Marks){
+//  const sum = 0 ;
+//  for (let mark of Marks) {
+//    sum += mark ;
+//    avareges = sum / Marks.length ;
+
+//    if (avareges < 60 ) return 'e'
+//    if (avareges < 70 ) return 'd'
+//    if (avareges < 80 ) return 'c'
+//    if (avareges < 90 ) return 'b'
+
+//     return 'a'
+
+//  }
+
+// }
+
+// const rating = [50 , 90 , 50]
+
+// mohasebe(rating);
+
+// function mohasebe(rat) {
+//   avergs = salam(rat) ;
+//   if (avergs < 60 ) return 'e'
+//   if (avergs < 70 ) return 'd'
+//   if (avergs < 80 ) return 'c'
+//   if (avergs < 90 ) return 'b'
+//   return 'a'
+
+// }
+
+// function salam (array) {
+//   const sum = 0 ;
+//   for (let value of array) {
+//      sum += value ;
+
+//     return sum / array.length
+//   }
+// }
+// rows(5)
+
+// function rows (row) {
+//   for (let ajab = 0 ; ajab <= row ; ajab++){
+//     pattern = ''
+//   for(let i = 1 ; i <ajab ; i++ )
+//     pattern += '*'
+//     console.log(pattern);
+//   }
+// }
+
+// ajab(555);
+
+// function ajab(adad) {
+//   for(let number = 2 ; number <= adad ; number ++){
+//     let isprimry = true ;
+//     for(let ajaba = 2  ; ajaba < number ; ajaba ++ ){
+
+//     if(number % ajaba === 0){
+//       isprimry = false ;
+//       break ;
+//     }
+//   }
+//   if (isprimry) console.log(number);
+//   }
+// }
+
+// OBJCET
+
+// function create(){
+//   return {
+//   value ,
+//   ajab(){
+//     console.log('salamdosteman');
+//   }
+// }
+// }
+
+// const salamDosteMan = {
+//   name : 'vahid',
+//   moshteba = null ,
+//   salam(){
+//     console.log('salam');
+//   }
+// }
+
+// console.log(salamDosteMan.moshteba);
+
+// let vahid = {
+//   name :'moshteb',
+//   job(){
+//     let jobb= ('html' , 'css' , 'soon javascript')
+//   },
+//   age :25
+// }
+
+// console.log(vahid);
+
+// let amin = {...vahid};
+// console.log(amin);
+
+// copy at a objet to new opject bye ...
+
+// const vahid = [5, 5, 5, 5,4 ,8, 8,9 ,9 ,8, 8, 8, 9,98 ,9 ,98 ,98 ,98 ,98 ,98,9 ,8,98 ,98 ,98,49 ,849, 465, 41,351];
+// console.log(Math.max(vahid));
+
+// let now = new Date();
+
+// object
+// let addrese = {
+//   shahr :'meshad',
+//    zipcode : 5050,
+//    ajab:'salam'
+// }
+
+// function showaddres(addrese){
+//   for (let key in addrese)
+//    console.log(key , addrese[key]);
+// }
+
+// showaddres(addrese);
+
+// let adddrese = new Createaddrtese('a' , 'b' , 'c')
+// console.log(adddrese);
+
+// function newaddrese(city , addrese , zipcode ) {
+//   return{
+//     city,
+//     addrese,
+//     zipcode
+//   }
+// }
+
+// function Createaddrtese(city , addrese , zipcode){
+//   this.city = city ,
+//   this.addrese= addrese ,
+//   this.zipcode = zipcode
+// }
+
+// let salam = {
+//   title: 'a',
+//   body: 'b',
+//   author: 'c',
+//   view: 20,
+//   commnets: [
+//     {liked: 10 , text : 55 },
+//     {liked: 10 , text : 55 }
+//   ],
+//   islive : true
+// };
+
+// console.log(salam);
+
+// const salam2 = new salam ;
+// console.log(salam2);
+
+// const numbers = [2, 5, 6];
+// console.log(numbers);
+
+// numbers.push(5);
+
+// const salam = [1 , 2  , 3 ,4 ]
+
+// salam.push('salamdosteman')
+
+//     salam.splice(2 , 0 , 'bazam salam')
+
+// console.log(salam);
+
+// const numbers = [1 , 2 , 3 ,4,'2' , '2' ,1] ;
+
+// console.log(numbers.indexOf(1 , 2));
+
+// const pepol = [
+//     {id : 1 , name :'vahid'},
+//     {id : 2 , name :'moshteba'}
+// ]
+
+// const finding = pepol.find(function (finding){
+//     return finding.id === 2;
+// })
+
+// console.log(finding);
+
+// const numbers = [1 , 2 , 3 , 4 , 5 ] ;
+
+// const findnumber = numbers.find(function(findnumber){
+//     return findnumber === 2 ;
+// });
+// console.log(findnumber);
+
+// const salam = [
+//     {name : 'amir' , id :1 },
+//     {name : 'vahid' , id :2 },
+//     {name : 'hoseein' , id :3 },
+//     {name : 'mohmmad' , id :4 },
+//     {name : 'amin' , id :5 },
+//     {name : 'alireza' , id :6 },
+// ]
+
+// const finding = salam.find (function(finding) {
+//     return finding.id ===1 ;
+// })
+
+// console.log(finding);
+
+// const classPepole = [
+//     {name :' moshteba ' , id : 1 },
+//     {name :' vahid ' , id : 2 },
+//     {name :' amir ' , id : 3 },
+//     {name :' hammed ' , id : 4 },
+//     {name :' yaser ' , id : 5 },
+//     {name :' ali ' , id : 6 },
+//     {name :' amirehossein ' , id : 7 },
+// ]
+
+// const finding = classPepole.find(function(finding){
+//     return finding.id===6;
+// })
+
+// console.log(finding);
+
+// oop
+// const find = classPepole.find(find =>  find.id === 5);
+// console.log(find);
+
+// let salamdosteman = 2;
+// const numbers = [1 , 2 , 3 ,4, ,5 ,salamdosteman];
+
+// const ajab= numbers.pop();
+// console.log(ajab);
+// console.log(numbers);
+
+// const numbers = [1 , 2 , 3 , 54] ;
+
+// const last = numbers.pop();
+// console.log(last);
+
+// const frist = numbers.shift();
+// console.log(frist);
+
+// let numbers = [ 1 , 2 , 3 ,5] ;
+// const Numbers = numbers ;
+
+//     const find = Numbers.findIndex(numbers => 2);
+//     console.log(find);
+
+// numbers=[]
+
+// console.log(Numbers);
+
+// const frist = [1  ,2 , 3] ;
+// const scenced = [4 , 5 , 6] ;
+// const both = frist.concat(scenced);
+// const litel= both.slice(2);
+// console.log(both);
+
+// console.log(litel);
+
+// const frist = [1 , 2 , 3 , 5] ;
+// const scend = [6 , 7 , 8 , 9] ;
+
+// const both = [...frist,'vahid' , ...scend , 'moshteba']
+// frist[1]=20;
+// both[0]=10;
+// console.log(both);
+
+// const numbers = [1 , 2 , 3 , 5]
+
+// for(let number in numbers){
+//     console.log(number , numbers);
+// }
+
+// const dadashia = ['moshteba', 'mostefa' , 'mashghanbar', 'moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar','moshteba', 'mostefa' , 'mashghanbar',]
+
+// dadashia.forEach((nubemr , index)=> {
+//     console.log( index, nubemr);
+
+// })
+
+// const numbers = [1 , 2 , 3 , 4 , 5, 6, 7] ;
+
+// // const fliterd = numbers.filter(n => n <= 5
+// // )
+// // console.log(fliterd);
+
+// const maping= numbers.map(n=>"<li>"+ n  +  "</li>")
+// console.log(maping);
+
+// const hmtl =  "</ul>"+ maping.join() + "</ul>"
+
+// console.log(hmtl);
+
+// const numbers = [1 , 2 , 3]
+
+// const maping= numbers.map(n => ({value: n + "salamdosteman"}));
+
+// console.log(maping);
+
+// console.log(new Date());
+
+// const year = new Date()
+// let jalali = [
+// { sal : year.getUTCFullYear() - 621 },
+// { mah : year.getUTCMonth() - 2 },
+// { roz : year.getDay() - 9 }
+// ];
+
+// console.log(jalali);
+
+// const year = 1400 ;
+// let ajab = 1 ;
+// const day = 6 ;
+
+// console.log( changeTo(ajab));
+
+// function changeTo( a ){
+//     switch (a){
+//         case 1 : 'فروردین '
+//         break;
+//     }
+
+// }
+
+// const numbers = [1 , 2 , 3 , 5 ,6 ]
+// const item = numbers.filter(n=> n <= 7)
+// .map(n=> ({value : n}));
+// console.log(item);
+
+// const numbers = [112311123112331111123 , 112311111111111111231, 1123123, 12312311, 1231231231, 1231231231,1231231231, 1123123123]
+
+// const sum = numbers.reduce((a ,b) =>
+// a+b );
+// console.log(sum);
+
+// const number = array(1, 50);
+// console.log(number);
+
+// function array(min, max) {
+//   const output = [];
+
+//   for (let i = min; i <= max; i++) output.push(i);
+//   return output;
+// }
+
+// console.log(best(1));
+
+
+// function best (number){
+//     switch (number) {
+//         case  1 :
+//         console.log('salamdosteman');             
+//         break;
+//         case 2 : 
+//         console.log('it is two number');
+//         break;
+//     }
+// }
+
+
+// تک عدد مشکل نداره اما رنج براش تعیین میکنم آندی فایند میزنه 
+
+// const salamdosteman = function(number){
+//     switch (number){
+//         case  5 : 
+//         console.log('salamdosteman');
+//         break;
+//         case 0 : 
+//         console.log('ajaba');
+//         break;
+//     }
+// }
+
+// salamdosteman(0);
+
+
+
+
+
+// console.log(sum(1 , 2, 3, 4, 5));
+
+// function sum() {
+//     let total = 0;
+//     for (let value of arguments)
+
+//     total +=value;
+
+//     return total
+// }
+
+
+// OOp exam up 
+// نمیدونم واسه چی ولی  این باید همیشه آخر فانگشن بیاد
+// ...price
+// function sum(...price){
+//     const total = price.reduce((a,b)=> a+b );
+//     return total;
+// }
+
+// console.log(sum(1 , 2 , 3 , 4 , 5 , 6));
+
+
+// استفاده پیش فرض از مقادیر تعییدن شده برای فانگشن 
+
+// function inner(year= 2021 , month=09 , day=12 ){
+//        return year + month +day ;
+//  }
+// console.log(inner(1400,2 , 2));
+
+
+
+
+
+// const person = {
+//     name : 'vahid', 
+//     lastname : 'ahmadi',
+//     age : 27,
+//     fullSpecifications() {
+//         return `${person.name} ${person.lastname} ${person.age}`
+//     }
+// }
+
+
+// console.log(person.fullSpecifications() + person.name);
+
+
+
+// get and setter
+// const person = {
+//     name : 'vahid',
+//     lastname:'ahmadi',
+
+//     get fullname() {
+//         return `${person.name} ${person.lastname}`
+
+//     },
+
+//     set fullname (value) {
+//         const part = value.split(' ');
+//         this.name = part[0]
+//         this.lastname = part[1]
+//     }
+// };
+// person.fullname = 'moshtebaahmadi bazamavahid' ;
+
+// console.log(person);
+
+
+
+// const persontwo= {
+//     name : 'vahid',
+//     lastname:'ahmadi',
+//     get fullname(){
+//         return `${persontwo.name} ${persontwo.lastname}`
+//     },
+//     set fullname (value){
+
+//         const parts = value.split(' ');
+//         this.name= parts[0]
+//         this.lastname= parts[1]
+
+//     } 
+
+// };
+
+// persontwo.fullname ='moshteba sadeghi'
+// console.log(persontwo);
+
+
+
+
+
+const persontree = {
+    name : 'vahid',
+    lastname : 'ahmadi',
+    get fullname () {
+        return `${persontree.name} ${persontree.lastname}`
+    },
+    set fullname(value) {
+        if(typeof value !== 'string')
+        throw new Error('khafe sho ye esm va famil  vared kon oskol')
+        const parts = value.split(' ');
+        if(parts.length !== 2)
+        throw new Error('esm va famil ba ham vard beshe ahmagh')
+        this.name= parts[0];
+        this.lastname= parts[1];
+    }
+};
+try{
+persontree.fullname =2
+}
+
+catch(e){
+alert(e);
+}
+console.log(persontree);
+
+
+
+
+
+
+
